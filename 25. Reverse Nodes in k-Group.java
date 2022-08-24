@@ -25,6 +25,9 @@ class Solution {
         while(curr!=null){
             curr=curr.next;
             count++;
+//             if(count>=k){
+//                 break;
+//             }
         }
         curr=dummy;
         if(head!=null && count>k-1){
